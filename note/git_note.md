@@ -152,7 +152,7 @@ git push
 ```bash
 git fetch --all  
 git reset --hard origin/<branch>
-git push --force-with-lease 
+
 
 ```
 

@@ -11,9 +11,9 @@
 ## 启用密钥快速命令
 
 ```shell
-ssh-add /home/liubo/00-liubo/my_material/my_note/git/git_key/gitlab_rsa && 
+ssh-add /home/liubo/00-liubo/learning/git_key/gitlab_rsa
 
-ssh-add /home/liubo/00-liubo/my_material/my_note/git/git_key/github_rsa
+ssh-add /home/liubo/00-liubo/learning/git_key/github_rsa
 ```
 
 ## 添加密钥gitlab(zerozero)
