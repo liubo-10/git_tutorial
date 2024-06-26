@@ -6,8 +6,6 @@
 
 # git 密钥
 
-
-
 ## 启用密钥快速命令
 
 ```shell
@@ -38,8 +36,6 @@ linux主机
 
 https://git.zerozero.cn/profile/keys
 
-
-
 启用密钥
 
 ```shell
@@ -54,6 +50,9 @@ wiondows虚拟机
 eval $(ssh-agent -s)
 ssh-add /c/00_liubo/git_key/id_rsa
 
+wiondows
+eval $(ssh-agent -s)
+ssh-add /e/my_tool/git_key/gitlab_rsa
 
 git config --global user.email "liubo@zerozero.cn"
 git config --global user.name "liubo"
@@ -87,6 +86,12 @@ https://github.com/settings/keys
 
 ```shell
 ssh-add /home/liubo/00-liubo/my_material/my_note/git/git_key/github_rsa
+
+
+wiondows
+eval $(ssh-agent -s)
+ssh-add /e/my_tool/git_key/github_rsa
+
 ```
 
 测试密钥
@@ -94,8 +99,6 @@ ssh-add /home/liubo/00-liubo/my_material/my_note/git/git_key/github_rsa
 ```shell
 ssh -T git@github.com
 ```
-
-
 
 ## 添加密钥gitee(bliu2_10)
 
@@ -117,10 +120,6 @@ ssh-keygen -t rsa -C liubojinzhou@sina.cn
 
 https://gitee.com/profile/sshkeys
 
-
-
-
-
 启用密钥
 
 ```shell
@@ -137,11 +136,7 @@ git config --global user.email 'liubojinzhou@sina.cn'
 ssh -T git@gitee.com
 ```
 
-
-
 ### linux
-
-
 
 生成密钥
 
@@ -159,8 +154,6 @@ ssh-keygen -t rsa -C liubojinzhou@sina.cn
 
 https://gitee.com/profile/sshkeys
 
-
-
 启用密钥
 
 ```shell
@@ -172,25 +165,6 @@ ssh-add /home/liubo/00-liubo/my_material/my_note/git/git_key/gitee_linux_rsa
 ```shell
 ssh -T git@gitee.com
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 
