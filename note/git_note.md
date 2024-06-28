@@ -1,8 +1,14 @@
-* 👋 Hi, I’m liubo
-* 👀 I’m interested in harmony
-* 🌱 I’m currently learning harmony
-* 💞️ I’m looking to collaborate on ...
-* 📫 How to reach me ...
+- 👋 Hi, I’m liubo
+- 👀 I’m interested in harmony
+- 🌱 I’m currently learning harmony
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+- 📇 sssssdsdsdsdsdsdasd
+- 🎃 dsdsdsdsdsddfsgdgasd
+- 🍺 jyukyuiyuiyuigkasd
+- 🍥 fsdfgdsgsdgdgadsa
+- ✨xcvxcvxcvxcvdasdaasd
+- 🍰dazdsxasxsaxsaasdsa
 
 # git笔记
 
@@ -27,6 +33,12 @@ git config --file ~/.gitconfig   user.email "liubo@zerozero.cn"
 
 git config --global user.name  "liubo00"
 git config --global user.email "liubo@zerozero.cn"
+
+git config --global user.email "liubo@zerozero.cn"
+git config --global user.name "liubo"
+
+git config --global user.name '刘卜卜' 
+git config --global user.email 'liubojinzhou@sina.cn'
 
 ## 分支管理
 
