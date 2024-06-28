@@ -10,8 +10,6 @@
 - ✨xcvxcvxcvxcvdasdaasd
 - 🍰dazdsxasxsaxsaasdsa
 
-
-
 # gitee(bliu2_10)
 
 ## 生成密钥
@@ -42,7 +40,7 @@ https://gitee.com/profile/sshkeys
 👋linux
 ssh-add /home/liubo/00-liubo/my_material/my_note/git/git_key/gitee_rsa
 
-wiondows
+👋wiondows
 ssh-agent bash  //添加不了，运行这个命令
 ssh-add    /e/my_note/git/git_key/gitee_rsa
 ```

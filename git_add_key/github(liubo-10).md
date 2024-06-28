@@ -10,8 +10,6 @@
 - ✨xcvxcvxcvxcvdasdaasd
 - 🍰dazdsxasxsaxsaasdsa
 
-
-
 # github(liubo-10)
 
 ## 生成密钥
@@ -39,7 +37,7 @@ wiondows
 ## 启用密钥
 
 ```shell
-linux主机
+👋linux主机
 ssh-add /home/liubo/00-liubo/my_material/my_note/git/git_key/github_rsa
 
 wiondows
