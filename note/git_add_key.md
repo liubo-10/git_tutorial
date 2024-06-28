@@ -6,13 +6,7 @@
 
 # git 密钥
 
-## 启用密钥快速命令
-
-```shell
-ssh-add /home/liubo/00-liubo/learning/git_key/gitlab_rsa
-
-ssh-add /home/liubo/00-liubo/learning/git_key/github_rsa
-```
+# 
 
 ## 添加密钥gitlab(zerozero)
 
@@ -29,7 +23,6 @@ linux主机
 /home/liubo/00-liubo/my_material/my_note/git/git_key
 141服务器
 /home/liubo/git/git_key/id_rsa
-
 ```
 
 添加密钥，网页添加
@@ -91,7 +84,6 @@ ssh-add /home/liubo/00-liubo/my_material/my_note/git/git_key/github_rsa
 wiondows
 eval $(ssh-agent -s)
 ssh-add /e/my_tool/git_key/github_rsa
-
 ```
 
 测试密钥
