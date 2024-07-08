@@ -53,7 +53,7 @@ ssh-add /c/00_liubo/git_key/id_rsa
 
 👋wiondows
 eval $(ssh-agent -s)
-ssh-add /e/my_tool/git_key/gitlab_rsa
+ssh-add /e/tool/git_key/gitlab_rsa
 ```
 
 ## 测试密钥
