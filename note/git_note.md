@@ -62,6 +62,10 @@ git remote prune origin
 git 更新远程分支列表
 git remote update origin --prune
 
+
+
+git remote prune origin && git remote update origin --prune
+
 ## 删除分支
 
 删除本地分支
@@ -135,6 +139,7 @@ git reset --hard origin/<branch>
 git rebase -i 0b50792fb1da1fd38d6d24669536b8a769c5ca52
 git rebase -i 16202cf6ca45169c2dd72da12fe927b77e954d6b
 git rebase -i c2e280334dde6090ece6203fc25aa67ad4e5a661
+
 ```
 
 ---

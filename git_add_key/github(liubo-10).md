@@ -21,8 +21,8 @@ ssh-keygen -t rsa -C liubojinzhou@sina.cn
 ## 密钥路径
 
 ```shell
-linux主机
-/home/liubo/00-liubo/my_material/my_note/git/git_key
+linux
+/home/liubo/00-liubo/git_key
 
 wiondows
 /e/my_tool/git_key/github_rsa
@@ -37,8 +37,8 @@ wiondows
 ## 启用密钥
 
 ```shell
-👋linux主机
-ssh-add /home/liubo/00-liubo/my_material/my_note/git/git_key/github_rsa
+👋linux
+ssh-add /home/liubo/00-liubo/git_key/github_rsa
 
 wiondows
 eval $(ssh-agent -s)

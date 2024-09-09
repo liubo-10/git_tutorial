@@ -22,7 +22,7 @@ ssh-keygen -t rsa -C liubo@zerozero.cn
 
 ```
 linux主机
-/home/liubo/00-liubo/my_material/my_note/git/git_key
+/home/liubo/00-liubo/git_key
 
 141服务器
 /home/liubo/git/git_key/id_rsa
@@ -41,7 +41,7 @@ wiondows
 
 ```shell
 👋linux主机
-ssh-add /home/liubo/00-liubo/my_material/my_note/git/git_key/gitlab_rsa
+ssh-add /home/liubo/00-liubo/git_key/gitlab_rsa
 
 👋141服务器
 eval $(ssh-agent -s)
