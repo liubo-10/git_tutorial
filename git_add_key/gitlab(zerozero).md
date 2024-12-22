@@ -29,6 +29,10 @@ linux主机
 
 wiondows
 /e/my_tool/git_key/gitlab_rsa
+
+linux虚拟主机
+/home/liubo/00_liubo/git_key
+
 ```
 
 ## 密钥添加网页
@@ -41,11 +45,12 @@ wiondows
 
 ```shell
 👋linux主机
+eval $(ssh-agent -s)
 ssh-add /home/liubo/00-liubo/git_key/gitlab_rsa
 
 👋141服务器
 eval $(ssh-agent -s)
-ssh-add /home/liubo/git/git_key/id_rsa
+ssh-add /home/liubo/00_liubo/git/git_key/id_rsa
 
 👋wiondows虚拟机
 eval $(ssh-agent -s)
@@ -54,6 +59,12 @@ ssh-add /c/00_liubo/git_key/id_rsa
 👋wiondows
 eval $(ssh-agent -s)
 ssh-add /e/tool/git_key/gitlab_rsa
+
+linux虚拟主机
+eval $(ssh-agent -s)
+ssh-add /home/liubo/00_liubo/git_key/gitlab_rsa
+
+
 ```
 
 ## 测试密钥

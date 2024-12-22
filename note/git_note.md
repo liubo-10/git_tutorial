@@ -15,6 +15,11 @@
 ## git设置文件
 
 ```git
+git config --global --edit
+git config --local --edit
+--
+--system
+
 Host gitlab
 HostName git.zerozero.cn
 User liubo00
@@ -40,6 +45,16 @@ git config --global user.name "liubo"
 git config --global user.name '刘卜卜' 
 git config --global user.email 'liubojinzhou@sina.cn'
 
+
+
+
+
+
+
+
+
+
+
 ## 分支管理
 
 ### 查看分支
@@ -64,7 +79,11 @@ git remote update origin --prune
 
 
 
+```shell
 git remote prune origin && git remote update origin --prune
+```
+
+
 
 ## 删除分支
 
@@ -133,12 +152,65 @@ git fetch --all
 git reset --hard origin/<branch>
 ```
 
+
+
+## 查看 Git 的配置信息
+
+#### 1. 查看所有配置项
+
+```bash
+git config --list
+```
+
+这个命令会显示所有级别（系统级、全局级和本地级）的 Git 配置项。
+
+#### 2. 查看全局配置
+
+```bash
+git config --global --list
+```
+
+
+
+
+
 ## 合并 commit
 
 ```git
 git rebase -i 0b50792fb1da1fd38d6d24669536b8a769c5ca52
 git rebase -i 16202cf6ca45169c2dd72da12fe927b77e954d6b
 git rebase -i c2e280334dde6090ece6203fc25aa67ad4e5a661
+
+
+git push origin --delete    liubo_10_08_dev_open_debug
+
+
+  remotes/origin/liubo_10_09_heating_new_test
+  remotes/origin/liubo_10_09_hotfix
+  remotes/origin/liubo_10_11_99%_test
+  remotes/origin/liubo_10_11_add_data_reset
+  remotes/origin/liubo_10_11_dev_heating_test
+  remotes/origin/liubo_10_11_dev_version_138
+  remotes/origin/liubo_10_11_heating_abnormal
+  remotes/origin/liubo_10_11_heating_open
+  remotes/origin/liubo_10_12_dev_heating_test
+  remotes/origin/liubo_10_12_heating_status
+  remotes/origin/liubo_10_12_low_power_test
+  remotes/origin/liubo_10_13_charging_abnormal
+  remotes/origin/liubo_10_13_heating_comm_debug
+  remotes/origin/liubo_10_14_USB_modify
+  remotes/origin/liubo_10_14_heating_comm_debug
+  remotes/origin/liubo_10_14_heating_running_status
+  remotes/origin/liubo_10_16_USB_detect_delay_modify
+  remotes/origin/liubo_10_16_communicate_modify
+  remotes/origin/liubo_10_16_current_test
+  remotes/origin/liubo_10_18_test
+  remotes/origin/liubo_10_19_alarm_modify
+  remotes/origin/liubo_10_21_display_SOC
+  remotes/origin/liubo_10_24_SOC_map
+  remotes/origin/liubo_10_25_add_alarm_event
+  remotes/origin/liubo_10_26_add_alarm_test
+  remotes/origin/liubo_10_26_add_charging_sleep_logic
 
 
 
